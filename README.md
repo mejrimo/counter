@@ -16,12 +16,12 @@ Finally the project was deployed to [Netlify](https://www.netlify.com/)
 
 | Color   | Hex                                                                     |
 | ------- | ----------------------------------------------------------------------- |
-| Color 1 | ![#462446](https://via.placeholder.com/10/462446/462446?text=+) #462446 |
-| Color 2 | ![#b05f6d](https://via.placeholder.com/10/b05f6d/b05f6d?text=+) #b05f6d |
-| Color 3 | ![#eb6b56](https://via.placeholder.com/10/eb6b56/eb6b56?text=+) #eb6b56 |
-| Color 4 | ![#ffc153](https://via.placeholder.com/10/ffc153/ffc153?text=+) #ffc153 |
-| Color 5 | ![#47b39d](https://via.placeholder.com/10/47b39d/47b39d?text=+) #47b39d |
-| Color 6 | ![#ffffff](https://via.placeholder.com/10/ffffff/ffffff?text=+) #ffffff |
+| Color 1 | ![#462446](https://via.placeholder.com/10/462446/462446?Text=+) #462446 |
+| Color 2 | ![#b05f6d](https://via.placeholder.com/10/b05f6d/b05f6d?Text=+) #b05f6d |
+| Color 3 | ![#eb6b56](https://via.placeholder.com/10/eb6b56/eb6b56?Text=+) #eb6b56 |
+| Color 4 | ![#ffc153](https://via.placeholder.com/10/ffc153/ffc153?Text=+) #ffc153 |
+| Color 5 | ![#47b39d](https://via.placeholder.com/10/47b39d/47b39d?Text=+) #47b39d |
+| Color 6 | ![#ffffff](https://via.placeholder.com/10/ffffff/ffffff?Text=+) #ffffff |
 
 ## Author
 
