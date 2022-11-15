@@ -14,14 +14,14 @@ Finally the project was deployed to [Netlify](https://www.netlify.com/)
 
 ## Color Reference
 
-| Color   | Hex                                                           |
-| ------- | ------------------------------------------------------------- |
-| Color 1 | ![#462446](https://via.placeholder.com/10/462446.png) #462446 |
-| Color 2 | ![#b05f6d](https://via.placeholder.com/10/b05f6d.png) #b05f6d |
-| Color 3 | ![#eb6b56](https://via.placeholder.com/10/eb6b56.png) #eb6b56 |
-| Color 4 | ![#ffc153](https://via.placeholder.com/10/ffc153.png) #ffc153 |
-| Color 5 | ![#47b39d](https://via.placeholder.com/10/47b39d.png) #47b39d |
-| Color 6 | ![#ffffff](https://via.placeholder.com/10/ffffff.png) #ffffff |
+| Color   | Hex                                                                  |
+| ------- | -------------------------------------------------------------------- |
+| Color 1 | ![#462446](https://via.placeholder.com/10/462446/462446.png) #462446 |
+| Color 2 | ![#b05f6d](https://via.placeholder.com/10/b05f6d/b05f6d.png) #b05f6d |
+| Color 3 | ![#eb6b56](https://via.placeholder.com/10/eb6b56/eb6b56.png) #eb6b56 |
+| Color 4 | ![#ffc153](https://via.placeholder.com/10/ffc153/ffc153.png) #ffc153 |
+| Color 5 | ![#47b39d](https://via.placeholder.com/10/47b39d/47b39d.png) #47b39d |
+| Color 6 | ![#ffffff](https://via.placeholder.com/10/ffffff/ffffff.png) #ffffff |
 
 ## Author
 
