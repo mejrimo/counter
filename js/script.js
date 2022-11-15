@@ -1,4 +1,4 @@
-// FUNZIONE PER CREARE NUOVI ELEMENTI DEL COUNTER CON 'TAG', 'ID' E 'TESTO'
+// CUSTOM FUNCTION TO CREATE NEW ELEMENTS OF THE COUNTER WITH PROPER 'TAG', 'ID' AND 'TEXT'
 function counterCreation(tag, id, text) {
   element = document.createElement(tag);
   element.id = id;
@@ -6,7 +6,7 @@ function counterCreation(tag, id, text) {
   return element;
 }
 
-// CREAZIONE DEI NUOVI ELEMENTI
+// CREATION OF NEW ELEMENT AND MODIFICATION OF THE DOM
 const container = counterCreation('div', 'container', '');
 document.body.append(container);
 
@@ -19,10 +19,13 @@ container.append(buttonContainer);
 const decreaseButton = counterCreation('button', 'decrease', '-');
 buttonContainer.append(decreaseButton);
 
+const resetButton = counterCreation('button', 'reset', 'Reset');
+buttonContainer.append(resetButton);
+
 const increaseButton = counterCreation('button', 'increase', '+');
 buttonContainer.append(increaseButton);
 
-// CREAZIONE DELLA FUNZIONE CHE PERMETTE DI AGGIUNGERE O SOTTRARRE '1' AL VALORE DEL COUNTER
+// CREATION OF A FUNCTION THAT ALLOWS YOU TO DECREASE, INCREASE OR RESET THE VALUE OF THE COUNTER
 let count = 0;
 
 buttonContainer.addEventListener('click', () => {
@@ -30,12 +33,14 @@ buttonContainer.addEventListener('click', () => {
 
   switch (target.id) {
     case 'decrease':
-      count -= 1;
-      counterValue.innerHTML = count;
+      count--;
+      break;
+    case 'reset':
+      count = 0;
       break;
     case 'increase':
-      count += 1;
-      counterValue.innerHTML = count;
+      count++;
       break;
   }
+  counterValue.innerHTML = count;
 });
