@@ -6,7 +6,7 @@ This is a simple and colorful counter made for Start2Impact University's course.
 
 ![counter-gif](https://user-images.githubusercontent.com/110642673/201925298-4ca3231e-ad1e-4e12-ae4a-41124713f7cc.gif)
 
-## Appendix
+## Info
 
 The goal of this project was to create a counter using the basis of Javascript, so I created all the necessary functions, implemented any visible content with the modification of the DOM and then styled them with CSS.
 
