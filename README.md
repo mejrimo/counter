@@ -2,7 +2,7 @@
 
 This is a simple and colorful counter made for Start2Impact University's course.
 
-You can try it here -> [Count3r](https://count3r.netlify.app/)
+**You can try it here -> [Count3r](https://count3r.netlify.app/)**
 
 ![counter-gif](https://user-images.githubusercontent.com/110642673/201925298-4ca3231e-ad1e-4e12-ae4a-41124713f7cc.gif)
 
