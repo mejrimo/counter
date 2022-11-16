@@ -33,13 +33,26 @@ buttonContainer.addEventListener('click', (event) => {
 
   switch (target.id) {
     case 'decrease':
-      count--;
+      if (count <= 0) {
+        count--;
+        counterValue.style.color = '#eb6b56';
+      } else {
+        count--;
+        counterValue.style.color = '';
+      }
       break;
     case 'reset':
       count = 0;
+      counterValue.style.color = '';
       break;
     case 'increase':
-      count++;
+      if (count >= -1) {
+        count++;
+        counterValue.style.color = '';
+      } else {
+        count++;
+        counterValue.style.color = '#eb6b56';
+      }
       break;
   }
   counterValue.innerHTML = count;
