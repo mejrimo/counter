@@ -28,7 +28,7 @@ buttonContainer.append(increaseButton);
 // CREATION OF A FUNCTION THAT ALLOWS YOU TO DECREASE, INCREASE OR RESET THE VALUE OF THE COUNTER
 let count = 0;
 
-buttonContainer.addEventListener('click', () => {
+buttonContainer.addEventListener('click', (event) => {
   const target = event.target;
 
   switch (target.id) {
